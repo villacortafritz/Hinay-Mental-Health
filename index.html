@@ -17,40 +17,50 @@
 <body>
   <div class="site-shell">
     <header class="topbar">
-      <a class="brand" href="#home" aria-label="HINAY home">
-        <span class="brand-mark">H</span>
-        <span>
-          <strong>HINAY</strong>
-          <small>Hinga. Isip. Nandito ang yakap.</small>
-        </span>
-      </a>
+      <div class="topbar-inner">
+        <a class="brand" href="#home" aria-label="HINAY home">
+          <span class="brand-mark" aria-hidden="true">
+            <span class="brand-mark-core"></span>
+          </span>
+          <span class="brand-copy">
+            <strong>HINAY</strong>
+            <small>Hinga. Isip. Nandito ang yakap.</small>
+          </span>
+        </a>
 
-      <nav class="topnav" aria-label="Primary">
-        <a href="#about">About</a>
-        <a href="#support">Support</a>
-        <a href="#dalaguete">Community</a>
-        <a href="#help-now">Help now</a>
-      </nav>
+        <nav class="topnav" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#support">Support</a>
+          <a href="#dalaguete">Dalaguete</a>
+          <a href="#help-now">Help now</a>
+        </nav>
 
-      <a class="header-cta" href="#contact">Reach out</a>
+        <a class="header-cta" href="#contact">Reach out</a>
+      </div>
+
+      <div class="header-ribbon" aria-label="HINAY meaning">
+        <span>Hinga.</span>
+        <span>Isip.</span>
+        <span>Nandito ang yakap.</span>
+      </div>
     </header>
 
     <main id="home">
-      <section class="hero section reveal">
+      <section class="hero section reveal section-card">
         <div class="hero-copy">
           <p class="eyebrow">Grassroots mental health support for Filipinos</p>
           <h1>Minsan, ang kailangan lang ay isang lugar na marunong makinig.</h1>
           <p class="lede">
-            HINAY is imagined as a warm first step for people in Dalaguete and beyond — a community-rooted space where mental health support feels human, local, and safe.
+            HINAY is imagined as a warm first step for people in Dalaguete — and a model that can be reached from anywhere in the country. It begins local: familiar language, human support, and a tone that feels like home instead of a system.
           </p>
 
-          <div class="meaning-card">
+          <div class="meaning-card meaning-card-hero">
             <div>
-              <span class="meaning-label">What HINAY stands for</span>
-              <h2>Hinga. Isip. Nandito ang yakap.</h2>
+              <span class="meaning-label">The heart of HINAY</span>
+              <h2><span>Hinga.</span> <span>Isip.</span> <span>Nandito ang yakap.</span></h2>
             </div>
             <p>
-              “Hinay” is a familiar Filipino word for slowing down, easing up, and treating yourself gently. That is the heart of this concept: not pressure, not shame — just support you can actually approach.
+              This line carries the whole idea. First, breathe. Then make space to think. Then remember this: dili ka nag-inusara. There is care here, and it does not have to feel distant or formal before it feels real.
             </p>
           </div>
 
@@ -72,13 +82,19 @@
           <div class="weave-panel">
             <div class="weave-grid"></div>
             <div class="art-card art-card-top">
-              <span>Circle check-ins</span>
-              <strong>Small, safe, local</strong>
+              <span>Hinga.</span>
+              <strong>Pause without shame</strong>
+            </div>
+            <div class="art-card art-card-middle">
+              <span>Isip.</span>
+              <strong>Make room to sort what hurts</strong>
             </div>
             <div class="art-card art-card-bottom">
-              <span>Grounded care</span>
-              <strong>Warm referrals, not cold systems</strong>
+              <span>Nandito ang yakap.</span>
+              <strong>Small, safe, local support</strong>
             </div>
+            <div class="banig-orbit banig-orbit-a"></div>
+            <div class="banig-orbit banig-orbit-b"></div>
             <svg class="island-shape" viewBox="0 0 500 400" role="img" aria-label="Decorative island-inspired shape">
               <path d="M91 207c42-34 59-71 100-84 45-15 99 11 150 4 36-5 60-26 86-45 18 41 15 91-11 129-22 33-59 52-98 58-35 6-70 2-105 7-35 4-71 18-106 5-31-12-49-44-56-76 16 3 29 5 40 2z"></path>
             </svg>
@@ -86,22 +102,22 @@
         </div>
       </section>
 
-      <section id="about" class="section split reveal">
+      <section id="about" class="section split reveal section-card compact-section">
         <div>
           <p class="section-tag">Why this matters</p>
           <h2>A support group should not feel far away, formal, or frightening.</h2>
         </div>
         <div class="copy-stack">
           <p>
-            In many Filipino communities, people still carry heavy things quietly. Some are scared of judgment. Some do not know where to start. Some just need someone to say, “Sige, storya ta. Safe ra diri.”
+            In many Filipino communities, people still carry heavy things quietly. Some are scared of judgment. Some do not know where to start. Some just need someone to say, “Sige lang. Safe ra diri. Pwede ra ka mohinay.”
           </p>
           <p>
-            This proof of concept is designed around that reality. HINAY is not framed as a hospital or a lecture. It feels closer to a community hand on your shoulder: calm design, clear language, and steps that make sense even on a phone.
+            This proof of concept is built around that reality. HINAY is not framed like a lecture or a cold institution. It feels closer to a barangay-ready first step: calm design, familiar wording, and simple actions that still make sense on a phone when someone is already overwhelmed.
           </p>
         </div>
       </section>
 
-      <section class="section reveal">
+      <section class="section reveal section-card compact-section">
         <div class="section-head">
           <p class="section-tag">Core pillars</p>
           <h2>What makes HINAY feel grounded and trustworthy</h2>
@@ -123,7 +139,7 @@
           <article class="pillar-card">
             <span class="pillar-number">03</span>
             <h3>Simple access on mobile</h3>
-            <p>Most people will meet HINAY through a phone. The experience is built to be clear, thumb-friendly, and not overwhelming.</p>
+            <p>Most people will meet HINAY through a phone. The experience is built to be clear, thumb-friendly, and never overwhelming.</p>
           </article>
 
           <article class="pillar-card">
@@ -134,7 +150,7 @@
         </div>
       </section>
 
-      <section id="support" class="section reveal">
+      <section id="support" class="section reveal section-card compact-section">
         <div class="section-head">
           <p class="section-tag">Support model</p>
           <h2>How support can look on the ground</h2>
@@ -174,15 +190,15 @@
         </div>
       </section>
 
-      <section id="dalaguete" class="section community-section reveal">
+      <section id="dalaguete" class="section community-section reveal section-card compact-section">
         <div class="community-copy">
           <p class="section-tag">Rooted in place</p>
           <h2>Made with Dalaguete in mind</h2>
           <p>
-            The best grassroots work does not look imported. It feels like it belongs to the people it serves. That means language that sounds local, visuals that feel warm and lived-in, and a rhythm that respects how community trust is actually built.
+            The best grassroots work does not look imported. It feels like it belongs to the people it serves. That means language that sounds local, visuals that feel warm and lived-in, and a rhythm that respects how trust is actually built in a town — slowly, person by person.
           </p>
           <p>
-            HINAY can begin with one-page clarity online, then grow outward through barangay partners, schools, church-based listening spaces, youth leaders, and simple community events that make support visible and normal.
+            HINAY can begin with one-page clarity online, then grow outward through barangay partners, schools, parish spaces, youth leaders, and simple community gatherings across Dalaguete and nearby parts of southern Cebu. The starting point is local, but the page can still be reached by any Filipino who needs a softer first step.
           </p>
         </div>
 
@@ -202,48 +218,48 @@
         </div>
       </section>
 
-      <section class="section stats-band reveal" aria-label="What the organization stands for">
+      <section class="section stats-band reveal section-card compact-section" aria-label="What the organization stands for">
         <div>
-          <strong>Safe first step</strong>
-          <span>For people who do not know where to begin</span>
+          <strong>Hinga.</strong>
+          <span>A calmer first step for people who need a pause before they can explain everything.</span>
         </div>
         <div>
-          <strong>Human language</strong>
-          <span>Gentle words instead of clinical distance</span>
+          <strong>Isip.</strong>
+          <span>Gentle space to sort feelings, choices, stress, and next steps without being rushed.</span>
         </div>
         <div>
-          <strong>Community trust</strong>
-          <span>Built slowly, consistently, and with care</span>
+          <strong>Nandito ang yakap.</strong>
+          <span>Warm, local support that feels human before it feels formal.</span>
         </div>
       </section>
 
-      <section class="section reveal">
+      <section class="section reveal section-card compact-section">
         <div class="section-head">
-          <p class="section-tag">What people need to know</p>
-          <h2>The details that quietly build confidence</h2>
+          <p class="section-tag">What a good one-page proof of concept should already show</p>
+          <h2>The essentials are here on purpose</h2>
         </div>
 
         <div class="details-grid">
           <article class="detail-card">
-            <h3>Privacy first</h3>
-            <p>What you share should be handled with care. Clear consent, respectful boundaries, and no gossip disguised as concern.</p>
+            <h3>Clear identity and tone</h3>
+            <p>The name, design, and language already communicate that this is a Filipino support initiative built around dignity and gentleness.</p>
           </article>
           <article class="detail-card">
-            <h3>Peer support is not the same as therapy</h3>
-            <p>HINAY can be a strong first layer of support, but it should also know when to connect someone to trained professionals or emergency help.</p>
+            <h3>Visible support pathways</h3>
+            <p>The page shows what HINAY is, who it is for, how help can work, and where urgent referrals should happen.</p>
+          </article>
+          <article class="detail-card">
+            <h3>Responsible crisis signposting</h3>
+            <p>A caring community concept still needs a visible handoff to urgent and professional help.</p>
           </article>
           <article class="detail-card">
             <h3>Accessible tone and design</h3>
             <p>Readable type, strong contrast, big tap targets, and sections that still make sense even when someone is stressed or distracted.</p>
           </article>
-          <article class="detail-card">
-            <h3>Real ways to join</h3>
-            <p>Volunteer pathways, partner invitations, youth involvement, and simple ways to ask for support without needing a long explanation.</p>
-          </article>
         </div>
       </section>
 
-      <section id="help-now" class="section urgent-section reveal">
+      <section id="help-now" class="section urgent-section reveal section-card compact-section">
         <div class="urgent-copy">
           <p class="section-tag">Urgent help</p>
           <h2>If someone is in immediate danger, this page should say that clearly.</h2>
@@ -276,7 +292,7 @@
         </div>
       </section>
 
-      <section class="section faq-section reveal">
+      <section class="section faq-section reveal section-card compact-section">
         <div class="section-head">
           <p class="section-tag">Frequently asked</p>
           <h2>Questions a real visitor might actually ask</h2>
@@ -302,13 +318,13 @@
         </div>
       </section>
 
-      <section id="contact" class="section contact-section reveal">
+      <section id="contact" class="section contact-section reveal section-card compact-section">
         <div class="contact-panel">
           <div>
             <p class="section-tag">Get involved</p>
             <h2>For a real launch, this is where outreach starts.</h2>
             <p>
-              This proof of concept keeps the actions simple: ask for support, partner with the group, volunteer, or bring HINAY into a school or barangay setting.
+              This proof of concept keeps the actions simple: ask for support, partner with the group, volunteer, or bring HINAY into a school, youth, church, or barangay setting in Dalaguete first — then grow from there.
             </p>
           </div>
 
@@ -321,12 +337,20 @@
       </section>
     </main>
 
-    <footer class="footer">
-      <div>
-        <strong>HINAY</strong>
-        <p>Hinga. Isip. Nandito ang yakap.</p>
+    <footer class="footer section-card">
+      <div class="footer-brand">
+        <span class="brand-mark footer-mark" aria-hidden="true">
+          <span class="brand-mark-core"></span>
+        </span>
+        <div>
+          <strong>HINAY</strong>
+          <p class="footer-line">Hinga. Isip. Nandito ang yakap.</p>
+        </div>
       </div>
-      <p class="footer-copy">One-page proof of concept for a grassroots Filipino mental health initiative centered on care, dignity, and local trust.</p>
+      <div class="footer-copy-wrap">
+        <p class="footer-copy">One-page proof of concept for a grassroots Filipino mental health initiative centered on care, dignity, and local trust.</p>
+        <p class="footer-copy footer-copy-small">Imagined first for Dalaguete, Cebu, with a mobile-first format that can still be reached anywhere in the Philippines.</p>
+      </div>
     </footer>
   </div>
 
